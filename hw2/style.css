@@ -72,7 +72,7 @@ body {
 
 .count {
   font-size: 14px;
-  font-weight: 600; /* 인스타그램처럼 진하게 */
+  font-weight: 600;
 }
 /* 본문 */
 .card__content {
@@ -109,4 +109,26 @@ body {
   font-size: 12px;
   font-weight: 600;
   text-decoration: none;
+}
+
+.card__comments {
+  padding: 0 10px 6px;
+}
+
+.card__comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.comment-like {
+  font-size: 14px;
+  color: #666;
+  cursor: pointer;
+}
+
+.comment-like:hover {
+  color: #fff;
 }
